@@ -1,0 +1,19 @@
+body {
+	background-color: rgb(193, 225, 193);
+	font-family: sans-serif;
+}
+
+h1 {
+	text-align: center;
+	background-color: rgb(95, 158, 160);
+	font-family: "Garamond", serif;
+	font-size: 38px;
+	font-weight: 800;
+}
+
+ul {
+	background-color: #AFE1AF;
+	font-family: "Times New Roman", serif;
+	font-size: 24px;
+	font-weight: none;
+}

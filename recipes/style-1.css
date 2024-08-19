@@ -1,0 +1,29 @@
+body {
+	background-color: #c4a484;
+	font-family: sans-serif;
+}
+
+h1 {
+	background-color: rgb(205, 127, 50);
+	font-family: "Georgia", serif;
+	font-size: 38px;
+}
+
+h2 {
+	background-color: #C2B280;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+ul, ol {
+	font-family: "Times New Roman", serif;
+	font-size: 24px;
+	font-weight: none;
+}
+
+img {
+	width: 450px;
+	height: auto;
+}
