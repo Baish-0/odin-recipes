@@ -17,9 +17,9 @@ h1, h2 {
 	text-align: center;
 }
 
-ul, ol {
+ul, ol, p {
 	font-family: "Times New Roman", serif;
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: none;
 }
 
