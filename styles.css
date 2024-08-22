@@ -1,19 +1,35 @@
 body {
 	background-color: rgb(193, 225, 193);
 	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
-h1 {
+#main-title {
 	text-align: center;
 	background-color: rgb(95, 158, 160);
 	font-family: "Garamond", serif;
 	font-size: 38px;
 	font-weight: 800;
+	padding: 15px;
+	margin: 0;
 }
 
-ul {
-	background-color: #AFE1AF;
+.recipes-links {
 	font-family: "Times New Roman", serif;
 	font-size: 24px;
 	font-weight: none;
+	text-align: right;
+	margin-right: 15px;
+}
+
+.recipes-links li {
+	display: inline-block;
+	background-color: #E4D00A;
+	padding: 1em 1.5em;
+}
+
+.recipes-links a {
+	text-decoration: none;
+	color: #000;
 }
