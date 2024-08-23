@@ -14,13 +14,19 @@ body {
 	font-family: "Georgia", serif;
 	font-size: 38px;
 	margin: 0 0 10px;
-	padding: 20px;
+	padding: 30px;
 }
 
 #subtitle {
+	width: 60%;
 	background-color: #C9CC3F;
 	padding: 12px;
 	border: 2px solid #B4C424;
+	margin: 20px auto 0;
+}
+
+#subtitle.adjust-margin {
+	margin-top: 100px;
 }
 
 h1, h2 {
