@@ -1,29 +1,57 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	background-color: #c4a484;
 	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
-h1 {
+#title {
 	background-color: rgb(205, 127, 50);
 	font-family: "Georgia", serif;
 	font-size: 38px;
+	margin: 0 0 10px;
+	padding: 30px;
 }
 
-h2 {
+.subtitle {
+	width: 60%;
 	background-color: #C2B280;
+	padding: 12px;
+	border: 2px solid #C2B280;
+	margin: 20px auto 50px;
+}
+
+.subtitle.adjust-margin {
+	margin-top: 100px;
+}
+
+.adjust-margin-bottom {
+	margin-bottom: 250px;
 }
 
 h1, h2 {
 	text-align: center;
 }
 
-ul, ol, p {
+.recipe-ingredients, .cooking-tips, p {
 	font-family: "Times New Roman", serif;
 	font-size: 20px;
 	font-weight: none;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+p {
+	margin-left: 40px;
 }
 
 img {
-	width: 450px;
+	display: block;
+	width: 600px;
 	height: auto;
+	margin: 0 auto;
 }

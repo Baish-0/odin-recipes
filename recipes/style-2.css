@@ -29,6 +29,10 @@ body {
 	margin-top: 100px;
 }
 
+.adjust-margin-bottom {
+	margin-bottom: 250px;
+}
+
 h1, h2 {
 	text-align: center;
 }
