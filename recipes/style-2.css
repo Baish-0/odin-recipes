@@ -17,15 +17,15 @@ body {
 	padding: 30px;
 }
 
-#subtitle {
+.subtitle {
 	width: 60%;
 	background-color: #C9CC3F;
 	padding: 12px;
 	border: 2px solid #B4C424;
-	margin: 20px auto 0;
+	margin: 20px auto 50px;
 }
 
-#subtitle.adjust-margin {
+.subtitle.adjust-margin {
 	margin-top: 100px;
 }
 
